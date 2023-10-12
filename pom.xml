@@ -4,6 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
+    <modules>
+        <module>algorithm</module>
+        <module>designmodel</module>
+        <module>spring</module>
+        <module>mybatis</module>
+    </modules>
 
     <groupId>com.xubo.snailsrocket</groupId>
     <artifactId>snailsrocket</artifactId>
@@ -28,6 +34,9 @@
         <hutool.version>5.7.15</hutool.version>
         <nacos.version>0.2.12</nacos.version>
         <lombok.version>1.18.10</lombok.version>
+        <fastjson.version>1.2.83</fastjson.version>
+        <junit.version>4.12</junit.version>
+        <slf4j.version>1.7.30</slf4j.version>
     </properties>
 
     <dependencyManagement>
@@ -54,6 +63,22 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
