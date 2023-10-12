@@ -9,6 +9,7 @@
         <module>designmodel</module>
         <module>spring</module>
         <module>mybatis</module>
+        <module>redis</module>
     </modules>
 
     <groupId>com.xubo.snailsrocket</groupId>
