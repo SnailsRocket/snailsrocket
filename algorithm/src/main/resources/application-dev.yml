@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: algorithm
+server:
+  port: 17802
+logging:
+  level:
+    com.xubo.snails: DEBUG

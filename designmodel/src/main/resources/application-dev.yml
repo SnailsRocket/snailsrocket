@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: design
+server:
+  port: 17801
+logging:
+  level:
+    com.xubo.snails: DEBUG
